@@ -65,7 +65,7 @@ The dataset used for this project is the **Spotify Million Song Dataset**, which
 1. **Input a Song**: The user selects a song from the dropdown menu (populated from the Kaggle dataset).
 2. **Recommendation**: Based on the selected song, the app recommends five similar songs using a pre-trained similarity matrix.
 3. **Album Cover**: The album covers for the recommended songs are fetched from the Spotify API and displayed alongside the song names.
-
+(NOTE: client id and client secret in the app.py section is from spotify for developers.)
 ## 🧠 Code Walkthrough
 
 ### 1. Loading Data
@@ -90,3 +90,4 @@ def get_song_album_cover_url(song_name, artist_name):
         return album_cover_url
     else:
         return "https://i.postimg.cc/0QNxYz4V/social.png"  # Fallback image URL
+
