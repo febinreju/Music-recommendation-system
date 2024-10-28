@@ -1,4 +1,4 @@
-# 🎶 Music Recommender System
+# Music Recommender System
 
 This repository contains a **Music Recommender System** that suggests songs based on the user's input. The system leverages **Spotify API** for fetching album covers and artist information, **Natural Language Processing (NLP)** techniques for recommendation, and a pre-trained similarity model. The web interface is built using **Streamlit** for easy user interaction.
 
